@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    box-sizing: border-box;
+    position: flexed;
+}
+
+.header{
+    display: table-cell;
+    text-align: left;
+    position: relative;
+}
+
+.COACHTECH{
+    font-size: 25px;
+}
+
+.header__nav{
+    position: table-cell;
+    text-align: right;
+    right: 0;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.main{
+    display: flex;
+}
+
+.main__smile{
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+.main__box{
+    position: relative;
+    height: 100px;
+    background-color: blue;
+}
+
+img{
+    position: absolute;
+    margin: -300px auto;
+    left: 70%;
+    width: 500px;
+    height: 250px;
+}
