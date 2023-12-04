@@ -12,35 +12,37 @@ body{
 
 .COACHTECH{
     font-size: 25px;
+    float: left;
+    padding-right: 50%;
 }
 
 .header__nav{
-    position: table-cell;
-    text-align: right;
-    right: 0;
     font-size: 20px;
-    padding-right: 15px;
 }
 
-.main{
-    display: flex;
+a{
+    padding-right:30px;
 }
 
 .main__smile{
     font-size: 50px;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
-.main__box{
+main{
     position: relative;
-    height: 100px;
+    top: 90%;
+}
+.main__box{
+    height: 200px;
+    width: 70%;
     background-color: blue;
 }
 
 img{
     position: absolute;
-    margin: -300px auto;
-    left: 70%;
+    margin: -400px auto;
+    left: 60%;
     width: 500px;
-    height: 250px;
+    height: 300px;
 }
