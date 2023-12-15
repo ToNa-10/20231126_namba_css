@@ -1,45 +1,52 @@
-body{
+body {
     width: 100%;
     box-sizing: border-box;
-    position: flexed;
-}
-
-.header{
-    display: table-cell;
-    text-align: left;
-    position: relative;
-}
-
-.COACHTECH{
-    font-size: 25px;
-    float: left;
-    padding-right: 50%;
-}
-
-.header__nav{
-    font-size: 20px;
 }
 
 a{
-    padding-right:30px;
+    text-decoration: none;
 }
 
-.main__smile{
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+}
+
+.header-ttl {
+    font-size: 25px;
+    width: 80px;
+}
+
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+    list-style: none;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.main__smile {
     font-size: 50px;
     padding-top: 300px;
 }
 
-main{
+main {
     position: relative;
     top: 90%;
 }
-.main__box{
+
+.main__box {
     height: 200px;
     width: 70%;
     background-color: blue;
 }
 
-img{
+img {
     position: absolute;
     margin: -400px auto;
     left: 60%;
