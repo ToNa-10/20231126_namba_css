@@ -1,6 +1,5 @@
-body {
+body{
     width: 100%;
-    box-sizing: border-box;
 }
 
 a{
@@ -12,7 +11,7 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0 30px;
+    padding: 20px;
 }
 
 .header-ttl {
@@ -42,14 +41,14 @@ main {
 
 .main__box {
     height: 200px;
-    width: 70%;
+    width: 80%;
     background-color: blue;
 }
 
 img {
     position: absolute;
     margin: -400px auto;
-    left: 60%;
-    width: 500px;
+    left: 50%;
+    width: 50%;
     height: 300px;
 }
